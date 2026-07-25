@@ -6,6 +6,12 @@ public class GameManager : MonoBehaviour
     private int playerScore;
     public int PlayerScore { get { return playerScore; } set { playerScore = value; } }
 
+    [SerializeField]
+    private GameObject[] ballPositons;
+
+    [SerializeField]
+    private GameObject ballPrefab;
+
     public static GameManager instance;
 
     private void Awake()
@@ -16,12 +22,27 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        SetBall(BallColor.red, 1);
+        SetBall(BallColor.yellow, 2);
+        SetBall(BallColor.green, 3);
+        SetBall(BallColor.brown, 4);
+        SetBall(BallColor.blue, 5);
+        SetBall(BallColor.pink, 6);
+        SetBall(BallColor.black, 7);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void SetBall(BallColor col, int i)
+    {
+        GameObject obj = Instantiate(ballPrefab,
+                                     ballPositons[i].transform.position,
+                                     Quaternion.identity);
+        Ball b = obj.GetComponent<Ball>();
+        b.SetColorAndPoint(col);
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -22,11 +23,19 @@ public class Ball : MonoBehaviour, IPointerClickHandler
     [SerializeField]
     private BallColor color;
 
+    [SerializeField]
+    private MeshRenderer rd;
+
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log(point);
         GameManager.instance.PlayerScore += point;
         Destroy(gameObject);
+    }
+
+    void Awake()
+    {
+        rd = GetComponent<MeshRenderer>();
     }
 
     void Start()
@@ -38,5 +47,44 @@ public class Ball : MonoBehaviour, IPointerClickHandler
     void Update()
     {
         
+    }
+
+    public void SetColorAndPoint(BallColor col)
+    {
+        switch(col)
+        {
+            case BallColor.white:
+                point = 0;
+                rd.material.color = Color.white;
+                break;
+            case BallColor.red:
+                point = 0;
+                rd.material.color = Color.red;
+                break;
+            case BallColor.yellow:
+                point = 0;
+                rd.material.color = Color.yellow;
+                break;
+            case BallColor.green:
+                point = 0;
+                rd.material.color = Color.green;
+                break;
+            case BallColor.brown:
+                point = 0;
+                rd.material.color = Color.brown;
+                break;
+            case BallColor.blue:
+                point = 0;
+                rd.material.color = Color.blue;
+                break;
+            case BallColor.pink:
+                point = 0;
+                rd.material.color = Color.pink;
+                break;
+            case BallColor.black:
+                point = 0;
+                rd.material.color = Color.black;
+                break;
+        }
     }
 }
