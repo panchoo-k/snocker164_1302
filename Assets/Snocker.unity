@@ -580,7 +580,7 @@ MonoBehaviour:
   ballPrefab: {fileID: 8708652923153019573, guid: 31a2b7392b7525f4d8312291d7e74ccb, type: 3}
   cueBall: {fileID: 1897285984}
   xInput: 0
-  ballLine: {fileID: 0}
+  ballLine: {fileID: 871575259}
 --- !u!4 &308228183
 Transform:
   m_ObjectHideFlags: 0
