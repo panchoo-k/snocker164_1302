@@ -42,12 +42,6 @@ public class Ball : MonoBehaviour, IPointerClickHandler
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SetColorAndPoint(BallColor col)
     {
         switch(col)
@@ -57,31 +51,31 @@ public class Ball : MonoBehaviour, IPointerClickHandler
                 rd.material.color = Color.white;
                 break;
             case BallColor.red:
-                point = 0;
+                point = 1;
                 rd.material.color = Color.red;
                 break;
             case BallColor.yellow:
-                point = 0;
+                point = 2;
                 rd.material.color = Color.yellow;
                 break;
             case BallColor.green:
-                point = 0;
+                point = 3;
                 rd.material.color = Color.green;
                 break;
             case BallColor.brown:
-                point = 0;
+                point = 4;
                 rd.material.color = Color.brown;
                 break;
             case BallColor.blue:
-                point = 0;
+                point = 5;
                 rd.material.color = Color.blue;
                 break;
             case BallColor.pink:
-                point = 0;
+                point = 6;
                 rd.material.color = Color.pink;
                 break;
             case BallColor.black:
-                point = 0;
+                point = 7;
                 rd.material.color = Color.black;
                 break;
         }

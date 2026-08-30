@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 
 public class GameManager : MonoBehaviour
@@ -23,6 +24,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject ballLine;
 
+    [SerializeField]
+    private TMP_Text notiText;
+
     public static GameManager instance;
 
     private void Awake()
@@ -30,7 +34,6 @@ public class GameManager : MonoBehaviour
         instance = this;
     }
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         SetBall(BallColor.red, 1);
@@ -41,8 +44,7 @@ public class GameManager : MonoBehaviour
         SetBall(BallColor.pink, 6);
         SetBall(BallColor.black, 7);
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         RotateBall();
@@ -91,5 +93,16 @@ public class GameManager : MonoBehaviour
         cueBall.transform.eulerAngles = new Vector3(0f, 0f, 0f);
 
         ballLine.SetActive(true);
+    }
+
+    public void ShowScoreText(int n)
+    {
+        playerScore += n;
+        notiText.text = $"Ball Point:{n}\nTotal Score:{playerScore}";
+    }
+
+    public void ShowString(string s)
+    {
+        notiText.text = s;
     }
 }
