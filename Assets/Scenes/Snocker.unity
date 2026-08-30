@@ -307,7 +307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7394103285385176128, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -347,6 +347,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936975411770310456, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -697,7 +701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -820,7 +824,7 @@ MonoBehaviour:
   cueBall: {fileID: 1897285984}
   xInput: 0
   ballLine: {fileID: 871575259}
-  notiText: {fileID: 0}
+  notiText: {fileID: 239001020}
 --- !u!4 &308228183
 Transform:
   m_ObjectHideFlags: 0
@@ -854,7 +858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7394103285385176128, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -894,6 +898,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936975411770310456, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -950,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7394103285385176128, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -990,6 +998,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936975411770310456, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1296,7 +1308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7394103285385176128, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1336,6 +1348,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936975411770310456, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1946,7 +1962,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7394103285385176128, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1986,6 +2002,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936975411770310456, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2338,6 +2358,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 356996230796254623, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 356996230796254623, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -2347,7 +2371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7394103285385176128, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2387,6 +2411,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7499660373463333264, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936975411770310456, guid: a109cd3ea85e119439dd7d9bccb301dd, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
